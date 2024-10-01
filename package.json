@@ -1,0 +1,22 @@
+{
+  "name": "ws-server-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsc ./src/server.ts",
+    "client": "tsc ./src/client.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/socket.io": "^3.0.2"
+  }
+}
